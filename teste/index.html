@@ -24,9 +24,9 @@
     }
     #panorama {
         width: 100%;
-        max-width: 1366px;
+        /*max-width: 1366px;*/
         height: 100%;
-        max-height: 768px;
+        /*max-height: 768px;*/
         margin: auto;
     }
     .custom-hotspot {
@@ -34,7 +34,7 @@
         width: 30px;
         border-radius: 30px;
         /* background-image: linear-gradient(-40deg, #ff00ff, #00ffd0); */
-        background-color: black;
+        background-color: red;
         /* transition: all .3s ease; */
         animation: pulse 2s infinite;
     }
@@ -114,15 +114,16 @@
 // Create viewer
 viewer = pannellum.viewer('panorama', ﻿{
     "type": "equirectangular",
+    "autoLoad": true,
     //"panorama": "https://pannellum.org/images/alma.jpg",
-    "panorama": "https://i.imgur.com/zX6U9on.jpg",//"https://i.imgur.com/mTLYxWz.jpg",
+    "panorama": url("images/foto3.jpeg"), //"https://i.imgur.com/mTLYxWz.jpg",
 //     "hotSpotDebug": true,
     "hotSpots": [
         {
             "pitch": 4.3,
             "yaw": -49.0,
             "type": "info",
-            "text": "South Beach",
+            "text": "Mar",
             "URL": "#",
             "cssClass": "custom-hotspot",
         },
@@ -130,7 +131,7 @@ viewer = pannellum.viewer('panorama', ﻿{
             "pitch": 2.3,
             "yaw": 24.0,
             "type": "info",
-            "text": "Miami Beach",
+            "text": "Bar",
             "URL": "#",
             "cssClass": "custom-hotspot",
         }
