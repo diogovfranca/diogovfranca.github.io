@@ -14,6 +14,111 @@
     <script type="text/javascript" src="dist/js/main.js"></script>
     <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
+<script type="text/javascript">
+	
+function openModal(item) {
+
+	var link = '';
+
+	switch(item) {
+		case 1:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-acesso-inf-e-fund-1';
+			break;
+		case 2:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-acesso-fundamental-2';
+			break;
+		case 3:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-quadras-esportivas';
+			break;
+		case 4:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-piscina';
+			break;
+		case 5:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-laboratorio-ciencias';
+			break;
+		case 6:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-biblioteca';
+			break;
+		case 7:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-sala-hip-hop';
+			break;
+		case 8:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-quadras-esportivas-2';
+			break;
+		case 9:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-campo-fut-americano';
+			break;
+		case 10:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-trilha-ecologica';
+			break;
+		case 11:
+			link = 'https://my.matterport.com/show/?m=e7iEe8anz4X';
+			break;
+		case 12:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-convivencia';
+			break;
+		case 13:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-ponte-suspensa';
+			break;
+		case 14:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-patio-coberto';
+			break;
+		case 15:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-administrativo';
+			break;
+		case 16:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-quadras-cobertas';
+			break;
+		case 17:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-quiosque';
+			break;
+		case 18:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-jardineira';
+			break;
+		case 19:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-refeitorio-fund-2';
+			break;
+		case 20:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-quadras-esportivas-3';
+			break;
+		case 21:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-quadra-coberta';
+			break;
+		case 22:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-refeitorio-inf-e-fund1';
+			break;
+		case 23:
+			link = 'https://my.matterport.com/show/?m=hJ9F9vtLii3';
+			break;
+		case 24:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-ballet';
+			break;
+		case 25:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-judo';
+			break;
+		case 26:
+			link = 'https://my.matterport.com/show/?m=ncERF5Ci9pr';
+			break;
+		case 27:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-playground';
+			break;
+		case 28:
+			link = 'https://meutour360.com.br/tour-360/bjaldeia-espaco-sao-francisco';
+			break;
+		default:
+			link = '';
+			break;
+	}
+
+	var left = (screen.width/2)-(600/2);
+  	var top = (screen.height/2)-(400/2);
+
+	window.open(link,"Titulo","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600,height=400, top="+top+", left="+left+"");
+
+}
+
+</script>
+
 <body>
 
     <div class="container">
@@ -21,115 +126,115 @@
             <img class="lg-image" src="https://i.imgur.com/iWfDePu.jpg">
 
             <div style="top: 59%; left: 68%;" class="lg-hotspot top-left point-1" data-item="1">
-                <div class="lg-hotspot-button">Acesso Infantil e Fundamental 1</div>
+                <div class="lg-hotspot-button" onclick="openModal(1);">Acesso Infantil e Fundamental 1</div>
             </div>
 
             <div style="top: 57%; left: 47%;" class="lg-hotspot top-left point-2" data-item="2">
-                <div class="lg-hotspot-button">Acesso Fundamental 2</div>
+                <div class="lg-hotspot-button" onclick="openModal(2);">Acesso Fundamental 2</div>
             </div>
 
             <div style="top: 65%; left: 32%;" class="lg-hotspot top-left point-3" data-item="3">
-                <div class="lg-hotspot-button">Quadras Esportivas</div>
+                <div class="lg-hotspot-button" onclick="openModal(3);">Quadras Esportivas</div>
             </div>
 
             <div style="top: 46%; left: 27%;" class="lg-hotspot top-left point-4" data-item="4">
-                <div class="lg-hotspot-button">Pscina</div>
+                <div class="lg-hotspot-button" onclick="openModal(4);">Pscina</div>
             </div>
 
             <div style="top: 41%; left: 20%;" class="lg-hotspot top-left point-5" data-item="5">
-                <div class="lg-hotspot-button">Laboratório de Ciências</div>
+                <div class="lg-hotspot-button" onclick="openModal(5);">Laboratório de Ciências</div>
             </div>
 
             <div style="top: 37%; left: 32%;" class="lg-hotspot top-left point-6" data-item="6">
-                <div class="lg-hotspot-button">Biblioteca</div>
+                <div class="lg-hotspot-button" onclick="openModal(6);">Biblioteca</div>
             </div>
 
             <div style="top: 32%; left: 28%;" class="lg-hotspot top-left point-7" data-item="7">
-                <div class="lg-hotspot-button">Hip-Hop</div>
+                <div class="lg-hotspot-button" onclick="openModal(7);">Hip-Hop</div>
             </div>
 
             <div style="top: 24%; left: 16%;" class="lg-hotspot top-left point-8" data-item="8">
-                <div class="lg-hotspot-button">Quadras Fundamental 2</div>
+                <div class="lg-hotspot-button" onclick="openModal(8);">Quadras Fundamental 2</div>
             </div>
 
             <div style="top: 15%; left: 19%;" class="lg-hotspot top-left point-9" data-item="9">
-                <div class="lg-hotspot-button">Futebol Americano</div>
+                <div class="lg-hotspot-button" onclick="openModal(9);">Futebol Americano</div>
             </div>
 
             <div style="top: 7%; left: 28%;" class="lg-hotspot top-left point-10" data-item="10">
-                <div class="lg-hotspot-button">Trilha Ecológica</div>
+                <div class="lg-hotspot-button" onclick="openModal(10);">Trilha Ecológica</div>
             </div>
 
             <div style="top: 18%; left: 36%;" class="lg-hotspot top-left point-11" data-item="11">
-                <div class="lg-hotspot-button destaque">Salas de Aula</div>
+                <div class="lg-hotspot-button destaque" onclick="openModal(11);">Salas de Aula</div>
             </div>
 
             <div style="top: 31%; left: 39%;" class="lg-hotspot top-left point-12" data-item="12">
-                <div class="lg-hotspot-button">Espaço de Convivência</div>
+                <div class="lg-hotspot-button" onclick="openModal(12);">Espaço de Convivência</div>
             </div>
 
             <div style="top: 36%; left: 43%;" class="lg-hotspot top-left point-13" data-item="13">
-                <div class="lg-hotspot-button">Ponte Suspensa</div>
+                <div class="lg-hotspot-button" onclick="openModal(13);">Ponte Suspensa</div>
             </div>
 
             <div style="top: 19%; left: 45%;" class="lg-hotspot top-left point-14" data-item="14">
-                <div class="lg-hotspot-button">Pátio Fundamental</div>
+                <div class="lg-hotspot-button" onclick="openModal(14);">Pátio Fundamental</div>
             </div>
 
             <div style="top: 25%; left: 45%;" class="lg-hotspot top-left point-15" data-item="15">
-                <div class="lg-hotspot-button">Administrativo</div>
+                <div class="lg-hotspot-button" onclick="openModal(15);">Administrativo</div>
             </div>
 
             <div style="top: 15%; left: 49%;" class="lg-hotspot top-left point-16" data-item="16">
-                <div class="lg-hotspot-button">Quadras Cobertas Fundamental 2</div>
+                <div class="lg-hotspot-button" onclick="openModal(16);">Quadras Cobertas Fundamental 2</div>
             </div>
 
             <div style="top: 16%; left: 56%;" class="lg-hotspot top-left point-17" data-item="17">
-                <div class="lg-hotspot-button">Quiosque Fundamental 2</div>
+                <div class="lg-hotspot-button" onclick="openModal(17);">Quiosque Fundamental 2</div>
             </div>
 
             <div style="top: 7%; left: 67%;" class="lg-hotspot top-left point-18" data-item="18">
-                <div class="lg-hotspot-button">Jardineira</div>
+                <div class="lg-hotspot-button" onclick="openModal(18);">Jardineira</div>
             </div>
 
             <div style="top: 27%; left: 54%;" class="lg-hotspot top-left point-19" data-item="19">
-                <div class="lg-hotspot-button">Refeitório Fundamental 2</div>
+                <div class="lg-hotspot-button" onclick="openModal(19);">Refeitório Fundamental 2</div>
             </div>
 
             <div style="top: 32%; left: 58%;" class="lg-hotspot top-left point-20" data-item="20">
-                <div class="lg-hotspot-button">Quadras Infantil e Fund. 1</div>
+                <div class="lg-hotspot-button" onclick="openModal(20);">Quadras Infantil e Fund. 1</div>
             </div>
 
             <div style="top: 30%; left: 66%;" class="lg-hotspot top-left point-21" data-item="21">
-                <div class="lg-hotspot-button">Quadra Coberta Infantil e Fund. 1</div>
+                <div class="lg-hotspot-button" onclick="openModal(21);">Quadra Coberta Infantil e Fund. 1</div>
             </div>
 
             <div style="top: 37%; left: 72%;" class="lg-hotspot top-left point-22" data-item="22">
-                <div class="lg-hotspot-button">Refeitório Infantil e Fund. 1</div>
+                <div class="lg-hotspot-button" onclick="openModal(22);">Refeitório Infantil e Fund. 1</div>
             </div>
 
             <div style="top: 43%; left: 74%;" class="lg-hotspot top-left point-23" data-item="23">
-                <div class="lg-hotspot-button destaque">Salas Especiais</div>
+                <div class="lg-hotspot-button destaque" onclick="openModal(23);">Salas Especiais</div>
             </div>
 
             <div style="top: 48%; left: 69%;" class="lg-hotspot top-left point-24" data-item="24">
-                <div class="lg-hotspot-button">Ballet</div>
+                <div class="lg-hotspot-button" onclick="openModal(24);">Ballet</div>
             </div>
 
             <div style="top: 52%; left: 73%;" class="lg-hotspot top-left point-25" data-item="25">
-                <div class="lg-hotspot-button">Judô</div>
+                <div class="lg-hotspot-button" onclick="openModal(25);">Judô</div>
             </div>
 
             <div style="top: 48%; left: 78.5%;" class="lg-hotspot top-left point-26" data-item="26">
-                <div class="lg-hotspot-button destaque">Sala de Aula</div>
+                <div class="lg-hotspot-button destaque" onclick="openModal(26);">Sala de Aula</div>
             </div>
 
             <div style="top: 40%; left: 81%;" class="lg-hotspot top-left point-27" data-item="27">
-                <div class="lg-hotspot-button">Playground Infantil e Fund. 1</div>
+                <div class="lg-hotspot-button" onclick="openModal(27);">Playground Infantil e Fund. 1</div>
             </div>
 
             <div style="top: 35%; left: 80%;" class="lg-hotspot top-left point-28" data-item="28">
-                <div class="lg-hotspot-button">Espaço São Francisco</div>
+                <div class="lg-hotspot-button" onclick="openModal(28);">Espaço São Francisco</div>
             </div>
 
             <div class="main-pointsInfo active">
