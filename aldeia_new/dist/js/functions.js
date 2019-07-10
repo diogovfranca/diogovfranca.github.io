@@ -70,7 +70,8 @@ function openModal(item) {
 			link = 'https://meutour360.com.br/tour-360/bjaldeia-refeitorio-inf-e-fund1';
 			break;
 		case 23:
-			link = 'https://my.matterport.com/show/?m=hJ9F9vtLii3';
+			link = 'https://my.matterport.com/show/?m=L5QSUCrKiPr';
+			//'https://my.matterport.com/show/?m=hJ9F9vtLii3';
 			break;
 		case 24:
 			link = 'https://meutour360.com.br/tour-360/bjaldeia-ballet';

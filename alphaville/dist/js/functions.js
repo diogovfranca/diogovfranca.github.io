@@ -46,10 +46,10 @@ function openModal(item) {
 			link = 'https://meutour360.com.br/tour-360/bjalpha-playground';
 			break;
 		case 15:
-			link = 'https://meutour360.com.br/tour-360/bjaldeia-administrativo';
+			link = 'https://meutour360.com.br/tour-360/bjalpha-cozinha-experimental';
 			break;
 		case 16:
-			link = 'https://meutour360.com.br/tour-360/bjalpha-cozinha-experimental';
+			link = 'https://meutour360.com.br/tour-360/bjalpha-musica';
 			break;
 		case 17:
 			link = 'https://meutour360.com.br/tour-360/bjalpha-tiny-town';
